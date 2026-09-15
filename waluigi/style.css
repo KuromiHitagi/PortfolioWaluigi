@@ -712,34 +712,7 @@ footer {
     }
 }
 
-.copyright {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    align-self: flex-end;
-
-    height: 80%;
-    width: 33%;
-    text-align: center;
-
-    a {
-        color: var(--cor-texto-footer);
-        font-size: var(--fonte-size-m);
-        text-align: center;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    p {
-        color: var(--cor-texto-footer);
-        font-size: var(--fonte-size-s);
-    }
-}
-
-
 .desc {
-
     display: inline-block;
     width: 500px;
     text-align: left;
@@ -748,13 +721,8 @@ footer {
     vertical-align: -2px;
     position: relative;
     overflow: hidden;
-
 }
-
-
-
 .desc>div {
-
     position: absolute;
     text-align: center;
     white-space: nowrap;
@@ -764,21 +732,16 @@ footer {
     box-shadow: 0px 60px 25px -20px rgba(0, 0, 0, 0.5);
     width: 500px;
     color: #eeeeee;
-
 }
-
 .desc>div:nth-child(1) {
     animation: roll 18s linear infinite 0s;
 }
-
 .desc>div:nth-child(2) {
     animation: roll 18s linear infinite 4.3s;
 }
-
 .desc>div:nth-child(3) {
     animation: roll 18s linear infinite 8.6s;
 }
-
 .desc>div:nth-child(4) {
     animation: roll2 18s linear infinite 12.9s;
 }
@@ -788,22 +751,18 @@ footer {
         opacity: 0;
         transform: scale(0) translateY(-20px);
     }
-
     10% {
         opacity: 1;
         transform: scale(1) translateY(0);
     }
-
     25% {
         opacity: 1;
         transform: scale(1) translateY(0);
     }
-
     35% {
         opacity: 0;
         transform: scale(0) translateY(20px);
     }
-
     100% {
         opacity: 0;
         transform: scale(0) translateY(20px);
@@ -815,22 +774,18 @@ footer {
         opacity: 0;
         transform: scale(0) translateY(-20px);
     }
-
     10% {
         opacity: 1;
         transform: scale(1) translateY(0);
     }
-
     25% {
         opacity: 1;
         transform: scale(1) translateY(0);
     }
-
     35% {
         opacity: 0;
         transform: scale(0) translateY(20px);
     }
-
     100% {
         opacity: 0;
         transform: scale(0) translateY(20px);
